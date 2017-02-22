@@ -1,0 +1,9 @@
+!*
+*.out
+*.map
+*.elf
+*.hex
+*.bin
+*.coe
+*.o
+dickens*.txt

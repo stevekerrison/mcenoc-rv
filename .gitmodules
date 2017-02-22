@@ -1,0 +1,12 @@
+[submodule "picorv32"]
+	path = src/picorv32
+	url = git@davv.cs.bris.ac.uk:emc2/picorv32
+[submodule "mcenoc-switch"]
+	path = src/mcenoc-switch
+	url = git@davv.cs.bris.ac.uk:emc2/switch-prototype
+[submodule "sw/libmcenoc-rv"]
+	path = sw/libmcenoc-rv
+	url = git@davv.cs.bris.ac.uk:emc2/libmcenoc-rv
+[submodule "src/pcpi-mcenoc-ni"]
+	path = src/pcpi-mcenoc-ni
+	url = git@davv.cs.bris.ac.uk:emc2/pcpi-mcenoc-ni

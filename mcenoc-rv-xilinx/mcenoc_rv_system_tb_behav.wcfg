@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="mcenoc_rv_system_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mcenoc_rv_system_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="400817000000fs"></ZoomStartTime>
+      <ZoomEndTime time="401036600001fs"></ZoomEndTime>
+      <Cursor1Time time="401000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="30" />
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/uart_rx">
+      <obj_property name="ElementShortName">uart_rx</obj_property>
+      <obj_property name="ObjectShortName">uart_rx</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/uart_tx">
+      <obj_property name="ElementShortName">uart_tx</obj_property>
+      <obj_property name="ObjectShortName">uart_tx</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/locked">
+      <obj_property name="ElementShortName">locked</obj_property>
+      <obj_property name="ObjectShortName">locked</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mcenoc_rv_system_tb/dut/rstcnt">
+      <obj_property name="ElementShortName">rstcnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rstcnt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /trap">
+      <obj_property name="ElementShortName">trap</obj_property>
+      <obj_property name="ObjectShortName">trap</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /instr_trap">
+      <obj_property name="ElementShortName">instr_trap</obj_property>
+      <obj_property name="ObjectShortName">instr_trap</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /mem_valid">
+      <obj_property name="ElementShortName">mem_valid</obj_property>
+      <obj_property name="ObjectShortName">mem_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /mem_ready">
+      <obj_property name="ElementShortName">mem_ready</obj_property>
+      <obj_property name="ObjectShortName">mem_ready</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /mem_rdata">
+      <obj_property name="ElementShortName">mem_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /cpuregs">
+      <obj_property name="ElementShortName">cpuregs[0:35][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cpuregs[0:35][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /pcpi_valid">
+      <obj_property name="ElementShortName">pcpi_valid</obj_property>
+      <obj_property name="ObjectShortName">pcpi_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /pcpi_insn">
+      <obj_property name="ElementShortName">pcpi_insn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcpi_insn[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].uart /pcpi_wait">
+      <obj_property name="ElementShortName">pcpi_wait</obj_property>
+      <obj_property name="ObjectShortName">pcpi_wait</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].uart /pcpi_wr">
+      <obj_property name="ElementShortName">pcpi_wr</obj_property>
+      <obj_property name="ObjectShortName">pcpi_wr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].uart /pcpi_wait">
+      <obj_property name="ElementShortName">pcpi_wait</obj_property>
+      <obj_property name="ObjectShortName">pcpi_wait</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].uart /pcpi_ready">
+      <obj_property name="ElementShortName">pcpi_ready</obj_property>
+      <obj_property name="ObjectShortName">pcpi_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].uart /is_transmitting">
+      <obj_property name="ElementShortName">is_transmitting</obj_property>
+      <obj_property name="ObjectShortName">is_transmitting</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].uart /pcpi_rs1">
+      <obj_property name="ElementShortName">pcpi_rs1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcpi_rs1[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].uart /instr_trigger">
+      <obj_property name="ElementShortName">instr_trigger</obj_property>
+      <obj_property name="ObjectShortName">instr_trigger</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].mem /mem_addr">
+      <obj_property name="ElementShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /irq">
+      <obj_property name="ElementShortName">irq[31:0]</obj_property>
+      <obj_property name="ObjectShortName">irq[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /irq_active">
+      <obj_property name="ElementShortName">irq_active</obj_property>
+      <obj_property name="ObjectShortName">irq_active</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /irq_pending">
+      <obj_property name="ElementShortName">irq_pending[31:0]</obj_property>
+      <obj_property name="ObjectShortName">irq_pending[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].cpu /do_waitirq">
+      <obj_property name="ElementShortName">do_waitirq</obj_property>
+      <obj_property name="ObjectShortName">do_waitirq</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].uart /rx_data">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].uart /uart/received">
+      <obj_property name="ElementShortName">received</obj_property>
+      <obj_property name="ObjectShortName">received</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].uart /uart/rx_byte">
+      <obj_property name="ElementShortName">rx_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/mcenoc_rv_system_tb/dut/\coregen[0].uart /uart/rx">
+      <obj_property name="ElementShortName">rx</obj_property>
+      <obj_property name="ObjectShortName">rx</obj_property>
+   </wvobject>
+</wave_config>
